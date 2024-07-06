@@ -1,0 +1,14 @@
+C:\Users\mdasouki\Documents\Git Repos\Expense Logger\bin\Release\Expense Logger.exe.config
+C:\Users\mdasouki\Documents\Git Repos\Expense Logger\bin\Release\Expense Logger.exe
+C:\Users\mdasouki\Documents\Git Repos\Expense Logger\bin\Release\Expense Logger.pdb
+C:\Users\mdasouki\Documents\Git Repos\Expense Logger\obj\Release\Expense Logger.csproj.AssemblyReference.cache
+C:\Users\mdasouki\Documents\Git Repos\Expense Logger\obj\Release\Expense_Logger.Form1.resources
+C:\Users\mdasouki\Documents\Git Repos\Expense Logger\obj\Release\Expense_Logger.Properties.Resources.resources
+C:\Users\mdasouki\Documents\Git Repos\Expense Logger\obj\Release\Expense Logger.csproj.GenerateResource.cache
+C:\Users\mdasouki\Documents\Git Repos\Expense Logger\obj\Release\Expense Logger.csproj.CoreCompileInputs.cache
+C:\Users\mdasouki\Documents\Git Repos\Expense Logger\obj\Release\Expense Logger.exe
+C:\Users\mdasouki\Documents\Git Repos\Expense Logger\obj\Release\Expense Logger.pdb
+C:\Users\mdasouki\Documents\Git Repos\Expense Logger\bin\Release\Expense Logger.exe.manifest
+C:\Users\mdasouki\Documents\Git Repos\Expense Logger\bin\Release\Expense Logger.application
+C:\Users\mdasouki\Documents\Git Repos\Expense Logger\obj\Release\Expense Logger.exe.manifest
+C:\Users\mdasouki\Documents\Git Repos\Expense Logger\obj\Release\Expense Logger.application
