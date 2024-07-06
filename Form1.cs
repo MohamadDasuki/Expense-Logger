@@ -45,6 +45,20 @@ namespace Expense_Logger
             // Display the values in a message box
             string message = $"Expense Type: {type}\nAmount: %{amount}\nDate: {selectedDate.ToShortDateString()}\nReceipt No.: {receipt}";
             MessageBox.Show(message);
+
+
+            string csvline = $"{type},{amount},{selectedDate.ToShortDateString()},{receipt}";
+
+            string filepath = "Log.csv";
+            using (StreamWriter writer = new StreamWriter(filepath, true))
+            {
+                writer.WriteLine(csvline);
+            }
+
+            MessageBox.Show("Data has been appended to the CSV file.");
+
+
+
         }
     }
 }
