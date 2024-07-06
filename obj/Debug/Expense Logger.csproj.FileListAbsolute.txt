@@ -1,0 +1,10 @@
+C:\Users\mdasouki\Documents\Git Repos\Expense Logger\bin\Debug\Expense Logger.exe.config
+C:\Users\mdasouki\Documents\Git Repos\Expense Logger\bin\Debug\Expense Logger.exe
+C:\Users\mdasouki\Documents\Git Repos\Expense Logger\bin\Debug\Expense Logger.pdb
+C:\Users\mdasouki\Documents\Git Repos\Expense Logger\obj\Debug\Expense Logger.csproj.AssemblyReference.cache
+C:\Users\mdasouki\Documents\Git Repos\Expense Logger\obj\Debug\Expense_Logger.Form1.resources
+C:\Users\mdasouki\Documents\Git Repos\Expense Logger\obj\Debug\Expense_Logger.Properties.Resources.resources
+C:\Users\mdasouki\Documents\Git Repos\Expense Logger\obj\Debug\Expense Logger.csproj.GenerateResource.cache
+C:\Users\mdasouki\Documents\Git Repos\Expense Logger\obj\Debug\Expense Logger.csproj.CoreCompileInputs.cache
+C:\Users\mdasouki\Documents\Git Repos\Expense Logger\obj\Debug\Expense Logger.exe
+C:\Users\mdasouki\Documents\Git Repos\Expense Logger\obj\Debug\Expense Logger.pdb
