@@ -8,3 +8,7 @@ C:\Users\mdasouki\Documents\Git Repos\Expense Logger\obj\Debug\Expense Logger.cs
 C:\Users\mdasouki\Documents\Git Repos\Expense Logger\obj\Debug\Expense Logger.csproj.CoreCompileInputs.cache
 C:\Users\mdasouki\Documents\Git Repos\Expense Logger\obj\Debug\Expense Logger.exe
 C:\Users\mdasouki\Documents\Git Repos\Expense Logger\obj\Debug\Expense Logger.pdb
+C:\Users\mdasouki\Documents\Git Repos\Expense Logger\bin\Debug\Expense Logger.exe.manifest
+C:\Users\mdasouki\Documents\Git Repos\Expense Logger\bin\Debug\Expense Logger.application
+C:\Users\mdasouki\Documents\Git Repos\Expense Logger\obj\Debug\Expense Logger.exe.manifest
+C:\Users\mdasouki\Documents\Git Repos\Expense Logger\obj\Debug\Expense Logger.application

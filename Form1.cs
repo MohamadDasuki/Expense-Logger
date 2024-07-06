@@ -21,6 +21,7 @@ namespace Expense_Logger
 
         private void button1_Click(object sender, EventArgs e)
         {
+            
             // Get the text from the first textbox
             string type = comboBox1.Text;
             
@@ -42,14 +43,16 @@ namespace Expense_Logger
             // Get the text from the third textbox
             string receipt = textBox2.Text;
 
-            // Display the values in a message box
-            string message = $"Expense Type: {type}\nAmount: %{amount}\nDate: {selectedDate.ToShortDateString()}\nReceipt No.: {receipt}";
-            MessageBox.Show(message);
-
+            if (string.IsNullOrWhiteSpace(type) || string.IsNullOrWhiteSpace(receipt) || amount == 0)
+            {
+                MessageBox.Show("Please make sure all fields are filled correctly.");
+                return;
+            }
 
             string csvline = $"{type},{amount},{selectedDate.ToShortDateString()},{receipt}";
 
             string filepath = "Log.csv";
+
             using (StreamWriter writer = new StreamWriter(filepath, true))
             {
                 writer.WriteLine(csvline);
@@ -59,6 +62,51 @@ namespace Expense_Logger
 
 
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            // Set up the OpenFileDialog
+            openFileDialog1.Filter = "CSV files (*.csv)|*.csv|All files (*.*)|*.*";
+            openFileDialog1.Title = "Open CSV File";
+
+            // Show the dialog and get the result
+            if (openFileDialog1.ShowDialog() == DialogResult.OK)
+            {
+                // Get the file path
+                string filePath = openFileDialog1.FileName;
+
+                try
+                {
+                    // Read all lines from the CSV file
+                    string[] lines = File.ReadAllLines(filePath);
+
+                    // Check if the file has lines
+                    if (lines.Length > 0)
+                    {
+                        // Parse the values in the specified column (assuming column index 1, change if needed)
+                        int columnIndex = 1; // Change to the index of the column you want to sum
+
+                        double sum = lines
+                            //.Skip(1) // Skip the header row
+                            .Select(line => line.Split(',')[columnIndex])
+                            .Select(value => double.TryParse(value, out double result) ? result : 0)
+                            .Sum();
+
+                        // Display the result in the label
+                        totalLabel.Text = $"$ {sum}";
+                    }
+                    else
+                    {
+                        MessageBox.Show("The file is empty.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"An error occurred while reading the file: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+
+            }
         }
     }
 }

@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Expense Logger.exe" size="361952">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Expense Logger.exe" size="362464">
       <assemblyIdentity name="Expense Logger" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>+08Kd7ODNb8TQyKymi4OnpOP/HtbYAcOpgZxtGOvznM=</dsig:DigestValue>
+        <dsig:DigestValue>RPer6hzsHVwlAVgyyYOJ4SaHataVWAWwhXxuvIlK9jU=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
